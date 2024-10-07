@@ -15,14 +15,14 @@ export default function Header() {
           </a>
         </div>
 
-        <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+        <PopoverGroup className="flex gap-x-12">
           <div className="flex items-center space-x-6">
             <h1 className="text-sm font-semibold leading-6 text-gray-900">
               푸쉬 알림 테스트
             </h1>
           </div>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+        <div className="flex lg:flex-1 lg:justify-end">오른쪽 버튼</div>
       </nav>
     </header>
   );
